@@ -4,17 +4,17 @@ Sample test for Ioet.
 
 This application has the purpouse of getting the workdays of some workers, inside a textfile on the following style:
 
-WORKER_NAME=MO13:00-16:00,SU01:00-09:00
+**WORKER_NAME=MO13:00-16:00,SU01:00-09:00**
 
 If a line is not set  properly, it raises an exception and the programm continues with another line.
 
 For use of apllication use command. where filename is the name of your file:
 
-python main.py filename.txt
+**python main.py filename.txt**
 
 or
 
-python3 main.py filename.txt
+**python3 main.py filename.txt**
 
 If a filename is not given, it raises an exception.
 
