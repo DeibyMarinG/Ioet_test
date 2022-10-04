@@ -64,7 +64,7 @@ class worker:
         return(worked_hours*hour_pay)
 
     def __str__(self):
-        return("%s with work time %s and total money %s \n"%(self.name,self.work_time,self.total_money))
+        return("The ammount to pay %s is: %s USD"%(self.name,self.total_money))
 
 def get_workers(line):
     try:
